@@ -75,31 +75,5 @@ main {
         padding-right: 1.5rem !important;
     }
 
-    .section{
-        background-color: black;
-    }
-
-    .name{
-        color: orange;
-        text-align: center;
-        border-block: 5px solid;
-        block-size: auto;
-    }
-
-    .animation{
-        width: 100px;
-        height: 100px;
-        background-color: red;
-        animation-name:example;
-        animation-duration: 10s;
-        animation-delay: 4s;
-    }
-
-    @keyframes example{
-        0% {background-color: red;}
-        25% {background-color: yellow;}
-        75% {background-color: blue;}
-        100% {background-color:green;}
-    }
-
+    
 }
