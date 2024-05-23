@@ -74,4 +74,26 @@ main {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
+
+    .div{
+        text-align: center;
+        text-decoration-color: orange;
+    }
+
+    .animation{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name:example;
+        animation-duration: 10s;
+        animation-delay: 4s;
+    }
+
+    @keyframes example{
+        0% {background-color: red;}
+        25% {background-color: yellow;}
+        75% {background-color: blue;}
+        100% {background-color:green;}
+    }
+
 }
